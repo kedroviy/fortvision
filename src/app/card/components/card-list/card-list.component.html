@@ -1,0 +1,72 @@
+<mat-card>
+
+    <mat-card-header class="header">
+        <div class="header__title">
+            
+                <mat-card-title>{{cardItem.title}}</mat-card-title>
+                <mat-card-subtitle>{{cardItem.userId?.firstName}}</mat-card-subtitle>
+                <mat-card-subtitle *ngIf="!cardItem.userId?.firstName">Name hidden</mat-card-subtitle>
+            
+            </div>
+            <div class="header__author">
+                <button class="avatar-button" mat-raised-button>
+                    <img 
+                        *ngIf="cardItem.userId?.image" 
+                        src={{cardItem.userId?.image}} alt="avatar"
+                    >
+                    <img 
+                        *ngIf="!cardItem.userId?.image" 
+                        src='../../../../assets/img/user.png' alt="no-avatar"
+                    >
+                </button>
+            </div>
+    </mat-card-header>
+
+    <mat-card-content>
+        <p>{{cardItem.body}}</p>
+    </mat-card-content>
+
+    <mat-card-actions>
+        <div class="actions">
+            <button 
+                *ngIf="cardItem.reactions"
+                mat-mini-fab 
+                matBadge={{cardItem.reactions}} 
+                color="primary"
+                matBadgePosition="before" 
+                matBadgeColor="warn"
+                (click)="onLikedPost(cardItem)"
+                (contextmenu)="onUnlikedPost(cardItem, $event)"
+            >
+                <mat-icon aria-hidden="false" aria-label="like">favorite</mat-icon>
+            </button>
+            <button 
+                *ngIf="!cardItem.reactions"
+                mat-mini-fab 
+                color="basic"
+                (click)="onLikedPost(cardItem)"
+            >
+                <mat-icon aria-hidden="true" aria-label="like">favorite</mat-icon>
+            </button>
+    
+            <button  
+                mat-mini-fab 
+                (click)="onGoToComments(cardItem)"
+                color="primary"
+                matBadgeColor="warn" 
+                matBadge={{cardItem.comments?.length}} >
+                <mat-icon aria-hidden="false" aria-label="like">comment</mat-icon>
+            </button>
+            <!-- <div *ngFor="let comment of cardItem.comments">
+                <p>{{cardItem.comments.body}}</p>
+            </div> -->
+            <button mat-icon-button>
+                <mat-icon aria-hidden="false" aria-label="like">share</mat-icon>
+            </button>
+        </div>
+        <div class="time">
+            <span>{{cardItem.timestamp}}</span>
+        </div>
+      </mat-card-actions>
+
+</mat-card>

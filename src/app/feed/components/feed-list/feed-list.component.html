@@ -1,0 +1,28 @@
+<div    
+    class="feed-container"
+    infinite-scroll
+    [infiniteScrollDistance]="2"
+    [infiniteScrollThrottle]="1000"
+    (scrolled)="onScroll()"
+>   
+    <ng-container *ngIf="!posts.length">
+        <div class="feed-list" *ngFor="let cardItem of (response$ | async)">
+            <app-card-list
+                [cardItem]="cardItem"
+                (likedPost)="onLikedPost($event)"
+                (unlikedPost)="onUnlikedPost($event)"
+                (commentsId)="onGoToComments($event)"
+            ></app-card-list>
+        </div>
+    </ng-container>
+    <ng-container *ngIf="posts.length">
+        <div class="feed-list" *ngFor="let cardItem of posts">
+            <app-card-list
+                [cardItem]="cardItem"
+                (likedPost)="onLikedPost($event)"
+                (unlikedPost)="onUnlikedPost($event)"
+                (commentsId)="onGoToComments($event)"
+            ></app-card-list>
+        </div>
+    </ng-container>
+</div>

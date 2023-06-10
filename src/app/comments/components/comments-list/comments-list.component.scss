@@ -1,0 +1,14 @@
+.comment-component {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comments-container {
+    margin: 10px 0;
+    flex: .5;
+}
+
+.form {
+    flex: .3;
+}

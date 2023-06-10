@@ -1,0 +1,35 @@
+<mat-toolbar class="header">
+    <button 
+        class="header__feed" 
+        mat-raised-button color="primary"
+        (click)="onLink()"
+    >
+        <h1 routerLinkActive="active"><a routerLink="/feed"></a> Feed</h1>
+    </button>
+
+    <div class="header__search">
+        <mat-form-field appearance="outline">
+            <mat-label>Search</mat-label>
+            <input matInput placeholder="Placeholder" [formControl]="search">
+            <mat-icon matSuffix (click)="onSearch()">search </mat-icon>
+        </mat-form-field>
+    </div>
+    <div class="header__info">
+        <div class="info">
+            <mat-card-title>{{profile.username}}</mat-card-title>
+            <mat-card-subtitle>{{profile.firstName + profile.lastName}}</mat-card-subtitle>
+        </div>
+        <div class="photo">
+            <button class="avatar-button" mat-raised-button>
+                <img 
+                    *ngIf="!profile.image" 
+                    src="src/assets/img/user.png" alt="no-avatar"
+                >
+                <img 
+                    *ngIf="profile.image" 
+                    src={{profile.image}} alt="avatar"
+                >
+            </button>
+        </div>
+    </div>
+</mat-toolbar>

@@ -1,0 +1,51 @@
+mat-card {
+    display: flex;
+    width: 700px;
+    max-height: 500px;
+
+    .header {
+        justify-content: space-between;
+        margin-bottom: 15px;
+
+        &__title {
+            flex: 0.5;
+        }
+
+        &__author {
+            flex: 0.5;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .avatar-button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+
+            img {
+                width: 90%;
+                height: 90%;
+            }
+        }
+
+    }
+
+    mat-card-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    mat-card-actions {
+        display: flex;
+        justify-content: space-between;
+        background-color: '#edede9';
+        margin-top: 10px;
+
+        button {
+            margin: 0 5px;
+        }
+    }
+}

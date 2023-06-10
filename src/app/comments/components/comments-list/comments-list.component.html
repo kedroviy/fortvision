@@ -1,0 +1,56 @@
+<div class="comment-component">
+    <ng-container *ngIf="currentPost$ | async as post">
+        <div class="comments-container">
+    
+            <app-card-list
+                [cardItem]="post"
+            ></app-card-list>
+    
+        </div>
+    </ng-container>
+
+    <ng-container *ngIf="comments$ let comments">
+        <div class="comments-container" *ngFor="let comment of (comments | async)">
+    
+            <mat-card>
+                <mat-card-header class="header">
+                    <mat-card-title>&#60; {{comment.user.username}} &#62;</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>
+                    <p>{{comment.body}}</p>
+                </mat-card-content>
+            </mat-card>
+    
+        </div>
+    </ng-container>
+    
+    <ng-container *ngIf="!(comments$ | async)?.length">
+        <p>no comments yet</p>
+    </ng-container>
+    
+    <form [formGroup]="formGroup" (ngSubmit)="onPost()">
+        <mat-card class="form">
+        <mat-form-field>
+            <mat-label>Left your comment!</mat-label>
+            <textarea 
+                matInput 
+                #input 
+                type="text" 
+                class="form-control" 
+                id="comment"
+                placeholder="left your comment..." 
+                autocomplete="off" 
+                formControlName="body"
+            ></textarea>
+    
+            <button 
+                mat-raised-button 
+                color="primary" 
+                [disabled]="!formGroup.valid"
+                type="submit"
+            >post</button>
+    
+        </mat-form-field> 
+    </mat-card>
+    </form>
+</div>

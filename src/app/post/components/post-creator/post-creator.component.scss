@@ -1,0 +1,24 @@
+.post-creator-form {
+    width: 500px;
+    background-color: #e9ecef;
+
+    fieldset {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fcfcfc;
+        height: 370px;
+        border: none;
+
+        .form-group {
+            margin: 10px;
+        }
+
+        :nth-child(3){
+            width: 100%;
+        }
+
+        :last-child {
+            width: 100%;
+        }
+    }
+}

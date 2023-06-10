@@ -1,0 +1,25 @@
+<div class="post-creator-form">
+    <form class="panel-body" [formGroup]="formGroup" (ngSubmit)="onSave()">
+        <mat-card>
+        <fieldset>
+                <div class="form-group">
+                    <mat-form-field>
+                        <mat-label>title</mat-label>
+                        <input matInput #input type="text" class="form-control" id="title"
+                            placeholder="Title (required)" autocomplete="off" [formControlName]="FORM_FIELD.TITLE" />
+                    </mat-form-field>
+                </div>
+
+                <div class="form-group">
+                    <mat-form-field>
+                        <mat-label>content</mat-label>
+                        <textarea matInput #input type="text" class="form-control" id="content"
+                            placeholder="Content (required)" autocomplete="off"
+                            [formControlName]="FORM_FIELD.BODY"></textarea>
+                    </mat-form-field>
+                </div>
+            </fieldset>
+            <button mat-raised-button color="primary" type="submit" [disabled]="!formGroup.valid">post</button>
+        </mat-card>
+    </form>
+</div>
