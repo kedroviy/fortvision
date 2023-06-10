@@ -33,7 +33,8 @@ export class PostCreatorComponent implements OnInit {
     [FORM_FIELD.BODY]: "",
     [FORM_FIELD.TIMESTAMP]: `${this.timestamp}`,
     [FORM_FIELD.REACTIONS]: 0,
-    [FORM_FIELD.USER_ID]: []
+    [FORM_FIELD.USER_ID]: [],
+    [FORM_FIELD.COMMENTS]: 0,
   });
   
   

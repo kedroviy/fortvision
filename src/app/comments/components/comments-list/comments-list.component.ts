@@ -57,19 +57,20 @@ export class CommentsListComponent implements OnInit {
     return this.formGroup.get(fieldName) as FormControl;
   }
 
-  onPost(): void {
-    this.getControl('postId').setValue(this.currentPostId);
-    this.getControl('user').setValue(this.currentUser);
+  onPost(post: any): void {
+      this.getControl('postId').setValue(this.currentPostId);
+      this.getControl('user').setValue(this.currentUser);
 
-    this.commentsHttpService.addCommentInDB(this.formGroup.value).subscribe(response => response);
+      this.commentsHttpService.addCommentInDB(this.formGroup.value).subscribe(response => response);
 
-    this.getControl('body').setValue('');
-    let id = this.currentPostId;
+      this.getControl('body').setValue('');
+      let id = this.currentPostId;
 
-    this.comments$ = this.refreshCommentsList$.pipe(switchMap(() =>
-    this.commentsHttpService.getComments()),
-        map(comments => comments.filter(comment => comment.postId === id))
-    )
+      this.comments$ = this.refreshCommentsList$.pipe(switchMap(() =>
+      this.commentsHttpService.getComments()),
+          map(comments => comments.filter(comment => comment.postId === id))
+      )
+      this.commentsHttpService.refreshCommentsCount(post)
   }
 
 }

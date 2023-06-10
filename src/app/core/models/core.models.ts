@@ -13,6 +13,6 @@ export interface PostsModel {
     timestamp?: string,
     userId?: {},
     tags?: [],
-    comments?: [],
+    comments?: number,
 }
 

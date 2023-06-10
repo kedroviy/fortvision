@@ -2197,388 +2197,40 @@
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "This is some awesome thinking!",
-      "postId": 100,
-      "user": {
-        "id": 63,
-        "username": "eburras1q"
-      }
-    },
-    {
-      "id": 2,
-      "body": "What terrific math skills you’re showing!",
-      "postId": 27,
-      "user": {
-        "id": 71,
-        "username": "omarsland1y"
-      }
-    },
-    {
-      "id": 3,
-      "body": "You are an amazing writer!",
-      "postId": 61,
-      "user": {
-        "id": 29,
-        "username": "jissetts"
-      }
-    },
-    {
-      "id": 4,
-      "body": "Wow! You have improved so much!",
-      "postId": 8,
-      "user": {
-        "id": 19,
-        "username": "bleveragei"
-      }
-    },
-    {
-      "id": 5,
-      "body": "Nice idea!",
-      "postId": 62,
-      "user": {
-        "id": 70,
-        "username": "cmasurel1x"
-      }
-    },
-    {
-      "id": 6,
-      "body": "You are showing excellent understanding!",
-      "postId": 19,
-      "user": {
-        "id": 97,
-        "username": "cdavydochkin2o"
-      }
-    },
-    {
-      "id": 7,
-      "body": "This is clear, concise, and complete!",
-      "postId": 47,
-      "user": {
-        "id": 22,
-        "username": "froachel"
-      }
-    },
-    {
-      "id": 8,
-      "body": "What a powerful argument!",
-      "postId": 47,
-      "user": {
-        "id": 82,
-        "username": "kogilvy29"
-      }
-    },
-    {
-      "id": 9,
-      "body": "I knew you could do it!",
-      "postId": 64,
-      "user": {
-        "id": 31,
-        "username": "smargiottau"
-      }
-    },
-    {
-      "id": 10,
-      "body": "Wonderful ideas!",
-      "postId": 4,
-      "user": {
-        "id": 35,
-        "username": "mbrooksbanky"
-      }
-    },
-    {
-      "id": 11,
-      "body": "It was a pleasure to grade this!",
-      "postId": 2,
-      "user": {
-        "id": 68,
-        "username": "rstrettle1v"
-      }
-    },
-    {
-      "id": 12,
-      "body": "Keep up the incredible work!",
-      "postId": 50,
-      "user": {
-        "id": 77,
-        "username": "rkingswood24"
-      }
-    },
-    {
-      "id": 13,
-      "body": "My goodness, how impressive!",
-      "postId": 37,
-      "user": {
-        "id": 28,
-        "username": "xisherwoodr"
-      }
-    },
-    {
-      "id": 14,
-      "body": "You’re showing inventive ideas!",
-      "postId": 30,
-      "user": {
-        "id": 57,
-        "username": "bpickering1k"
-      }
-    },
-    {
-      "id": 15,
-      "body": "You’ve shown so much growth!",
-      "postId": 44,
-      "user": {
-        "id": 76,
-        "username": "cgaber23"
-      }
-    },
-    {
-      "id": 16,
-      "body": "Interesting thoughts!",
-      "postId": 71,
-      "user": {
-        "id": 100,
-        "username": "pcumbes2r"
-      }
-    },
-    {
-      "id": 17,
-      "body": "I love your neat work!",
-      "postId": 68,
-      "user": {
-        "id": 37,
-        "username": "nwytchard10"
-      }
-    },
-    {
-      "id": 18,
-      "body": "Doesn’t it feel good to do such great work?",
-      "postId": 41,
-      "user": {
-        "id": 31,
-        "username": "smargiottau"
-      }
-    },
-    {
-      "id": 19,
-      "body": "First-rate work!",
-      "postId": 75,
-      "user": {
-        "id": 60,
-        "username": "dlambarth1n"
-      }
-    },
-    {
-      "id": 20,
-      "body": "This is fascinating information!",
-      "postId": 48,
-      "user": {
-        "id": 17,
-        "username": "vcholdcroftg"
-      }
-    },
-    {
-      "id": 21,
-      "body": "You inspire me!",
-      "postId": 29,
-      "user": {
-        "id": 5,
-        "username": "kmeus4"
-      }
-    },
-    {
-      "id": 22,
-      "body": "This is right on target!",
-      "postId": 18,
-      "user": {
-        "id": 31,
-        "username": "smargiottau"
-      }
-    },
-    {
-      "id": 23,
-      "body": "What an astounding observation!",
-      "postId": 73,
-      "user": {
-        "id": 14,
-        "username": "mturleyd"
-      }
-    },
-    {
-      "id": 24,
-      "body": "This is very well thought out!",
-      "postId": 32,
-      "user": {
-        "id": 16,
-        "username": "dpierrof"
-      }
-    },
-    {
-      "id": 25,
-      "body": "I can tell you’ve been practicing!",
-      "postId": 44,
-      "user": {
-        "id": 78,
-        "username": "dbuist25"
-      }
-    },
-    {
-      "id": 26,
-      "body": "You’ve come a long way!",
-      "postId": 70,
-      "user": {
-        "id": 82,
-        "username": "kogilvy29"
-      }
-    },
-    {
-      "id": 27,
-      "body": "I can tell you’ve been paying attention!",
-      "postId": 60,
-      "user": {
-        "id": 74,
-        "username": "ahinckes21"
-      }
-    },
-    {
-      "id": 28,
-      "body": "Reading this made my day!",
-      "postId": 85,
-      "user": {
-        "id": 85,
-        "username": "kpondjones2c"
-      }
-    },
-    {
-      "id": 99,
-      "body": "You inspire me!",
-      "postId": 8,
-      "user": {
-        "id": 5,
-        "username": "kmeus4"
-      }
-    },
-    {
-      "id": 78,
-      "body": "This is right on target!",
-      "postId": 8,
-      "user": {
-        "id": 31,
-        "username": "smargiottau"
-      }
-    },
-    {
-      "id": 29,
-      "body": "This is very perceptive!",
-      "postId": 13,
-      "user": {
-        "id": 30,
-        "username": "kdulyt"
-      }
-    },
-    {
-      "id": 21,
-      "body": "You inspire me!",
-      "postId": 15,
-      "user": {
-        "id": 5,
-        "username": "kmeus4"
-      }
-    },
-    {
-      "id": 22,
-      "body": "This is right on target!",
-      "postId": 15,
-      "user": {
-        "id": 31,
-        "username": "smargiottau"
-      }
-    },
-    {
-      "id": 99,
-      "body": "You inspire me!",
-      "postId": 18,
-      "user": {
-        "id": 5,
-        "username": "kmeus4"
-      }
-    },
-    {
-      "id": 78,
-      "body": "This is right on target!",
-      "postId": 18,
-      "user": {
-        "id": 31,
-        "username": "smargiottau"
-      }
-    },
-    {
-      "id": 30,
-      "body": "What an accomplishment!",
-      "postId": 23,
-      "user": {
-        "id": 36,
-        "username": "dalmondz"
-      }
-    },
-    {
-      "body": "12 sdasda ",
-      "postId": null,
-      "user": null,
-      "id": 100
-    },
-    {
       "body": "new comment",
       "postId": 15,
       "user": {
         "id": 1,
         "username": "xisherwoodr"
       },
-      "id": 101
+      "id": 1
     },
     {
-      "body": "norm comment",
-      "postId": 22,
-      "user": {
-        "id": 1,
-        "username": "xisherwoodr"
-      },
-      "id": 102
-    },
-    {
-      "body": "ok, understand you",
+      "body": "one more",
       "postId": 15,
       "user": {
         "id": 1,
         "username": "xisherwoodr"
       },
-      "id": 103
+      "id": 2
     },
     {
-      "body": "asasasa",
-      "postId": 15,
+      "body": "empty",
+      "postId": 8,
       "user": {
         "id": 1,
         "username": "xisherwoodr"
       },
-      "id": 104
+      "id": 3
     },
     {
-      "body": "no understand",
-      "postId": 15,
+      "body": "left comment",
+      "postId": 6,
       "user": {
         "id": 1,
         "username": "xisherwoodr"
       },
-      "id": 105
-    },
-    {
-      "body": "good work",
-      "postId": 11,
-      "user": {
-        "id": 1,
-        "username": "xisherwoodr"
-      },
-      "id": 106
+      "id": 4
     }
   ],
   "content": [
@@ -2607,26 +2259,7 @@
       ],
       "reactions": 5,
       "timestamp": "2023-12-25",
-      "comments": [
-        {
-          "id": 21,
-          "body": "You inspire me!",
-          "postId": 15,
-          "user": {
-            "id": 5,
-            "username": "kmeus4"
-          }
-        },
-        {
-          "id": 22,
-          "body": "This is right on target!",
-          "postId": 15,
-          "user": {
-            "id": 31,
-            "username": "smargiottau"
-          }
-        }
-      ]
+      "comments": 2
     },
     {
       "id": 8,
@@ -2651,35 +2284,7 @@
         "english"
       ],
       "reactions": 9,
-      "comments": [
-        {
-          "id": 99,
-          "body": "You inspire me!",
-          "postId": 8,
-          "user": {
-            "id": 5,
-            "username": "kmeus4"
-          }
-        },
-        {
-          "id": 78,
-          "body": "This is right on target!",
-          "postId": 8,
-          "user": {
-            "id": 31,
-            "username": "smargiottau"
-          }
-        },
-        {
-          "id": 301,
-          "body": "This is right on target!",
-          "postId": 8,
-          "user": {
-            "id": 31,
-            "username": "smargiottau"
-          }
-        }
-      ]
+      "comments": 1
     },
     {
       "id": 6,
@@ -2687,7 +2292,8 @@
       "body": "Dave wasn't exactly sure how he had ended up in this predicament. He ran through all the events that had lead to this current situation and it still didn't make sense. He wanted to spend some time to try and make sense of it all, but he had higher priorities at the moment. The first was how to get out of his current situation of being naked in a tree with snow falling all around and no way for him to get down.",
       "userId": 47,
       "reactions": 4,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 1
     },
     {
       "id": 7,
@@ -2708,7 +2314,8 @@
         "image": "https://robohash.org/namquaerataut.png"
       },
       "reactions": 2,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 9,
@@ -2716,7 +2323,8 @@
       "body": "There are different types of secrets. She had held onto plenty of them during her life, but this one was different. She found herself holding onto the worst type. It was the type of secret that could gnaw away at your insides if you didn't tell someone about it, but it could end up getting you killed if you did.",
       "userId": 42,
       "reactions": 3,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 10,
@@ -2737,7 +2345,8 @@
         "image": "https://robohash.org/hicveldicta.png"
       },
       "reactions": 4,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 11,
@@ -2758,7 +2367,8 @@
         "image": "https://robohash.org/doloremautdolores.png"
       },
       "reactions": 5,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 12,
@@ -2779,7 +2389,8 @@
         "image": "https://robohash.org/laboriosammollitiaut.png"
       },
       "reactions": 5,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 13,
@@ -2787,7 +2398,8 @@
       "body": "She wanted rainbow hair. That's what she told the hairdresser. It should be deep rainbow colors, too. She wasn't interested in pastel rainbow hair. She wanted it deep and vibrant so there was no doubt that she had done this on purpose.",
       "userId": 44,
       "reactions": 0,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 14,
@@ -2808,7 +2420,8 @@
         "image": "https://robohash.org/hicveldicta.png"
       },
       "reactions": 0,
-      "timestamp": "2023-12-25"
+      "timestamp": "2023-12-25",
+      "comments": 0
     },
     {
       "id": 15,
@@ -2829,7 +2442,8 @@
         "image": "https://robohash.org/autquiaut.png"
       },
       "reactions": 1,
-      "timestamp": "2021-12-25"
+      "timestamp": "2021-12-25",
+      "comments": 0
     },
     {
       "id": 16,
@@ -2837,7 +2451,8 @@
       "body": "There was only one way to do things in the Statton house. That one way was to do exactly what the father, Charlie, demanded. He made the decisions and everyone else followed without question. That was until today.",
       "userId": 31,
       "reactions": 5,
-      "timestamp": "2023-05-25"
+      "timestamp": "2023-05-25",
+      "comments": 0
     },
     {
       "id": 17,
@@ -2858,7 +2473,8 @@
         "image": "https://robohash.org/adverovelit.png"
       },
       "reactions": 0,
-      "timestamp": "2021-12-11"
+      "timestamp": "2021-12-11",
+      "comments": 0
     },
     {
       "id": 18,
@@ -2879,14 +2495,16 @@
         "image": "https://robohash.org/consequunturabnon.png"
       },
       "reactions": 3,
-      "timestamp": "2023-10-25"
+      "timestamp": "2023-10-25",
+      "comments": 0
     },
     {
       "id": 19,
       "title": "The rain and wind abruptly stopped.",
       "body": "The rain and wind abruptly stopped, but the sky still had the gray swirls of storms in the distance. Dave knew this feeling all too well. The calm before the storm. He only had a limited amount of time before all Hell broke loose, but he stopped to admire the calmness. Maybe it would be different this time, he thought, with the knowledge deep within that it wouldn't.",
       "userId": 46,
-      "reactions": 8
+      "reactions": 8,
+      "comments": 0
     },
     {
       "id": 20,
@@ -2894,52 +2512,8 @@
       "body": "He couldn't remember exactly where he had read it, but he was sure that he had. The fact that she didn't believe him was quite frustrating as he began to search the Internet to find the article. It wasn't as if it was something that seemed impossible. Yet she insisted on always seeing the source whenever he stated a fact.",
       "userId": 38,
       "reactions": 9,
-      "timestamp": "2021-11-12"
-    },
-    {
-      "title": "asasa",
-      "body": "asasas",
-      "timestamp": "2023-13-45",
-      "reactions": 1,
-      "id": 21
-    },
-    {
-      "title": "asasas121",
-      "body": "asasas new post",
-      "timestamp": "2023-13-45",
-      "reactions": 0,
-      "id": 22
-    },
-    {
-      "title": "asasd",
-      "body": "asassd",
-      "reactions": 1,
-      "id": 23
-    },
-    {
-      "title": "asa12323",
-      "body": "new time",
-      "reactions": 0,
-      "id": 24
-    },
-    {
-      "title": "ghghgohfo",
-      "body": "asdaf afddsafds fsdf ssfsdfsdf335 3545",
-      "reactions": 0,
-      "id": 25
-    },
-    {
-      "title": "asa a a 123",
-      "body": " as asd  asdd",
-      "reactions": 0,
-      "id": 26
-    },
-    {
-      "title": " dss a a12 ",
-      "body": "1212",
-      "timestamp": "2023/06/06",
-      "reactions": 0,
-      "id": 27
+      "timestamp": "2021-11-12",
+      "comments": 0
     },
     {
       "id": 18,
@@ -2965,42 +2539,7 @@
         "love"
       ],
       "reactions": 3,
-      "comments": [
-        {
-          "id": 99,
-          "body": "You inspire me!",
-          "postId": 18,
-          "user": {
-            "id": 5,
-            "username": "kmeus4"
-          }
-        },
-        {
-          "id": 78,
-          "body": "This is right on target!",
-          "postId": 18,
-          "user": {
-            "id": 31,
-            "username": "smargiottau"
-          }
-        },
-        {
-          "id": 301,
-          "body": "This is right on target!",
-          "postId": 18,
-          "user": {
-            "id": 31,
-            "username": "smargiottau"
-          }
-        }
-      ]
-    },
-    {
-      "title": "new post",
-      "body": "1234",
-      "timestamp": "2023-06-09",
-      "reactions": 0,
-      "id": 28
+      "comments": 0
     },
     {
       "title": "new post about me",
@@ -3011,7 +2550,8 @@
         "id": 1,
         "username": "xisherwoodr"
       },
-      "id": 29
+      "id": 29,
+      "comments": 0
     },
     {
       "title": "asasas 12112",
@@ -3029,7 +2569,45 @@
         "birthDate": "1979-01-09",
         "image": "https://robohash.org/consequunturabnon.png"
       },
-      "id": 30
+      "id": 30,
+      "comments": 0
+    },
+    {
+      "title": "new post from me",
+      "body": "hello world!",
+      "timestamp": "2023-06-10",
+      "reactions": 0,
+      "userId": {
+        "id": 1,
+        "firstName": "Kody",
+        "lastName": "Terry",
+        "age": 28,
+        "gender": "male",
+        "email": "xisherwoodr@ask.com",
+        "username": "xisherwoodr",
+        "birthDate": "1979-01-09",
+        "image": "https://robohash.org/consequunturabnon.png"
+      },
+      "id": 31
+    },
+    {
+      "title": "123",
+      "body": "post",
+      "timestamp": "2023-06-10",
+      "reactions": 0,
+      "userId": {
+        "id": 1,
+        "firstName": "Kody",
+        "lastName": "Terry",
+        "age": 28,
+        "gender": "male",
+        "email": "xisherwoodr@ask.com",
+        "username": "xisherwoodr",
+        "birthDate": "1979-01-09",
+        "image": "https://robohash.org/consequunturabnon.png"
+      },
+      "comments": 0,
+      "id": 32
     }
   ],
   "my-posts": []

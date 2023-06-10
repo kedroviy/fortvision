@@ -4,4 +4,5 @@ export const FORM_FIELD = {
     TIMESTAMP: 'timestamp',
     REACTIONS: 'reactions',
     USER_ID: 'userId',
+    COMMENTS: 'comments',
 }

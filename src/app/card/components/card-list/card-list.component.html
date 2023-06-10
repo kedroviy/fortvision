@@ -50,16 +50,27 @@
             </button>
     
             <button  
+                *ngIf="cardItem.comments > 0"
                 mat-mini-fab 
                 (click)="onGoToComments(cardItem)"
                 color="primary"
                 matBadgeColor="warn" 
-                matBadge={{cardItem.comments?.length}} >
+                matBadge={{cardItem.comments}}
+            >
                 <mat-icon aria-hidden="false" aria-label="like">comment</mat-icon>
             </button>
-            <!-- <div *ngFor="let comment of cardItem.comments">
-                <p>{{cardItem.comments.body}}</p>
-            </div> -->
+
+            <button  
+                *ngIf="cardItem.comments === 0"
+                mat-mini-fab 
+                (click)="onGoToComments(cardItem)"
+                color="primary"
+                matBadgeColor="warn" 
+                matBadge=''
+            >
+                <mat-icon aria-hidden="false" aria-label="like">comment</mat-icon>
+            </button>
+            
             <button mat-icon-button>
                 <mat-icon aria-hidden="false" aria-label="like">share</mat-icon>
             </button>
