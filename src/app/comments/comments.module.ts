@@ -8,13 +8,12 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { CardModule } from '../card/card.module'
 import { CommentsRoutingModule } from './comment-routing.module';
-import { CommentViewComponent, CommentsListComponent } from './components';
+import { CommentsListComponent } from './components';
 
 
 @NgModule({
   declarations: [
     CommentsListComponent,
-    CommentViewComponent,
   ],
   imports: [
     CommonModule,

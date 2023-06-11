@@ -26,33 +26,31 @@ export class FeedListComponent implements OnInit {
     secondValue: number = 5;
 
     constructor(
-      private feedHttpService: FeedHttpService,
-      private router: Router,
-      private store: Store
+        private feedHttpService: FeedHttpService,
+        private router: Router,
+        private store: Store
     ) { this.searchValue$ = this.store.select(AppState.searchValue); }
 
     ngOnInit(): void {
-      window.scroll(0 , 100);
-      this.response$ = this.refreshFeedList$.pipe(mergeMap(() =>
-      this.feedHttpService.getPostsList(this.firstValue, this.secondValue)))
-      
-      this.response$.subscribe((posts: any) => this.posts = [...posts])
+        window.scroll(100, 100);
+        this.response$ = this.refreshFeedList$.pipe(mergeMap(() =>
+        this.feedHttpService.getPostsList(this.firstValue, this.secondValue)))
+        
+        this.response$.subscribe((posts: any) => this.posts = [...posts])
 
-      console.log(this.posts.length)
+        this.posts.map(item => console.log(item))
 
-      this.posts.map(item => console.log(item))
+        this.firstValue = this.secondValue
+        this.secondValue = this.secondValue + 5;
+        
+        let searchValue = this.search;
 
-      this.firstValue = this.secondValue
-      this.secondValue = this.secondValue + 5;
-      
-      let searchValue = this.search;
-
-      this.searchValue$.subscribe((value: string) => {
-        if (value !== this.search) {
-          this.search = value
-          console.log(value)
-        } 
-      })
+        this.searchValue$.subscribe((value: string) => {
+            if (value !== this.search) {
+                this.search = value
+                console.log(value)
+            } 
+        })
     }
 
     onScroll(): void {

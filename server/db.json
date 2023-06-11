@@ -2231,6 +2231,69 @@
         "username": "xisherwoodr"
       },
       "id": 4
+    },
+    {
+      "body": "Asdfg",
+      "postId": 15,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 5
+    },
+    {
+      "body": "Asddfg",
+      "postId": 15,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 6
+    },
+    {
+      "body": "Asdf223",
+      "postId": 15,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 7
+    },
+    {
+      "body": "Asdsdf",
+      "postId": 15,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 8
+    },
+    {
+      "body": "Vfgfh",
+      "postId": 15,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 9
+    },
+    {
+      "body": "New com",
+      "postId": 8,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 10
+    },
+    {
+      "body": "Old comment",
+      "postId": 8,
+      "user": {
+        "id": 1,
+        "username": "xisherwoodr"
+      },
+      "id": 11
     }
   ],
   "content": [
@@ -2259,7 +2322,7 @@
       ],
       "reactions": 5,
       "timestamp": "2023-12-25",
-      "comments": 2
+      "comments": 7
     },
     {
       "id": 8,
@@ -2284,7 +2347,7 @@
         "english"
       ],
       "reactions": 9,
-      "comments": 1
+      "comments": 3
     },
     {
       "id": 6,
@@ -2557,7 +2620,7 @@
       "title": "asasas 12112",
       "body": "new post1212",
       "timestamp": "2023-06-09",
-      "reactions": 0,
+      "reactions": 1,
       "userId": {
         "id": 1,
         "firstName": "Kody",
@@ -2571,24 +2634,6 @@
       },
       "id": 30,
       "comments": 0
-    },
-    {
-      "title": "new post from me",
-      "body": "hello world!",
-      "timestamp": "2023-06-10",
-      "reactions": 0,
-      "userId": {
-        "id": 1,
-        "firstName": "Kody",
-        "lastName": "Terry",
-        "age": 28,
-        "gender": "male",
-        "email": "xisherwoodr@ask.com",
-        "username": "xisherwoodr",
-        "birthDate": "1979-01-09",
-        "image": "https://robohash.org/consequunturabnon.png"
-      },
-      "id": 31
     },
     {
       "title": "123",

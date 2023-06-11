@@ -43,7 +43,8 @@
                     autocomplete="off" 
                     formControlName="body"
                 ></textarea>
-        
+                <mat-error class="error">{{ getControl('body').errors?.message }}</mat-error>
+
                 <button 
                     mat-raised-button 
                     color="primary" 
